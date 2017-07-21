@@ -1,0 +1,17 @@
+{
+  "name": "working-with-webpack",
+  "version": "1.0.0",
+  "description": "A quick tutorial on webpack 🤠",
+  "main": "index.js",
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^20.0.4",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
