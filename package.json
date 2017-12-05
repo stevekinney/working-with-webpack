@@ -6,11 +6,20 @@
   "author": "Steve Kinney",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build": "rimraf ./dist/ && webpack",
     "test": "jest"
   },
   "dependencies": {
+    "babili-webpack-plugin": "^0.1.2",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.29.0",
     "jest": "^20.0.4",
+    "raw-loader": "^0.5.1",
+    "react": "^15.6.1",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.5.1"
   }

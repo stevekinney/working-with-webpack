@@ -1,1 +1,3 @@
-module.exports = () => console.log('See');
+const multiply = require('./math/multiply');
+
+module.exports = (n) => multiply(n, 3);

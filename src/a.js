@@ -1,1 +1,1 @@
-module.exports = () => console.log('Aye');
+module.exports = () => console.log(multiply(6, 3));
